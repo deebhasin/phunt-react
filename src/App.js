@@ -1,12 +1,12 @@
-import ProductList from "./ProductList";
 import "./App.css";
-import Nav from "./Nav";
+import Header from "./components/header/Header";
+import Products from "./components/products/Products";
 
 function App() {
   return (
     <>
-      <Nav />;
-      <ProductList />;
+      <Header />
+      <Products />
     </>
   );
 }
