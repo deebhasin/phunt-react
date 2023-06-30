@@ -1,4 +1,5 @@
-import React from "react";
+import profileImage from "../../images/passport_size.jpg";
+import notificationImage from "../../images/dribble_icon.png";
 
 export default function Header() {
   return (
@@ -21,10 +22,10 @@ export default function Header() {
         <div className="right">
           <div className="submit">Submit</div>
           <div className="notification">
-            <img src="/Users/deepakbhasin/workspace/html/patrick/images/dribble_icon.png" alt="notification" />
+            <img src={notificationImage} alt="notification" />
           </div>
           <div className="profile">
-            <img src="./images/passport_size.jpg" alt="profile" />
+            <img src={profileImage} alt="profile" />
           </div>
         </div>
       </div>

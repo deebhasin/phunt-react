@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 70vw;
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.icon img {
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.top .left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left .name {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.left .heading {
+  font-size: 25px;
+  font-weight: 300;
+  color: #4b587c;
+}
+.top .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right .visit {
+  height: 64px;
+  width: 64px;
+  border: 1px solid rgba(192, 192, 192, 0.5);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right .upvote {
+  height: 64px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid rgba(192, 192, 192, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ff6154;
+  color: white;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4b587c;
+  margin-bottom: 50px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.images img {
+  width: 400px;
+
+  object-fit: contain;
+  margin-bottom: 50px;
+}
+.comments {
+  font-size: large;
+  /* white-space: nowrap; */
+  word-break: normal;
+  /* text-wrap: wrap; */
+}
